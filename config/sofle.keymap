@@ -24,7 +24,7 @@
           #binding-cells = <2>;
           flavor = "tap-preferred";
           tapping-term-ms = <200>;
-          bindings = <&mo>, <&kp>;  // Hold: Layer, Tap: Keypress
+          bindings = <&sl>, <&kp>;  // Hold: Layer, Tap: Keypress
         };
 
         click_hold: click_hold {
