@@ -59,7 +59,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - {t: F13, h: LOWER LAYER}
   - {t: '$$mdi:keyboard-space$$', h: RAISE LAYER}
-  - '&left_click_hold'
+  - {t: '$$mdi:mouse-left-click-outline$$', h: '$$mdi:mouse-right-click-outline$$'}
   - {t: '$$mdi:keyboard-return$$', h: RAISE LAYER}
   - {t: '$$mdi:backspace$$', h: LOWER LAYER}
   - $$mdi:backspace-reverse-outline$$
@@ -80,11 +80,7 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-<<<<<<< HEAD
-  - '&rgb_up RGB_OFF'
-=======
   - RGB OFF
->>>>>>> e05451a0116e94b5068b6ff00da586cdb825259b
   - RGB ON
   - RGB EFF
   - RGB EFR
