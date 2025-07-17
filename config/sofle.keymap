@@ -22,7 +22,7 @@
         tptgl: tptgl {
           compatible = "zmk,behavior-hold-tap";
           #binding-cells = <2>;
-          flavor = "hold-preferred";
+          flavor = "tap-preferred";
           tapping-term-ms = <200>;
           bindings = <&to>, <&kp>;  // Hold: Layer, Tap: Keypress
         };
@@ -33,8 +33,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&mkp>, <&mkp>; // Base behaviors
-            binding-params = <RCLK>, <LCLK>; // Hold: Right-click, Tap: Left-click
+            bindings = <&mkp RCLK>, <&mkp LCLK>; // Base behaviors
         };
 
         mmv {
