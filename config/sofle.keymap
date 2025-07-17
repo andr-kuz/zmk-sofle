@@ -32,8 +32,10 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&mkp RCLK>, <&mkp LCLK>; // Base behaviors
+            flavor = "hold-preferred";
+            bindings = <&kp>, <&kp>; // Base behaviors
+            hold-trigger-key-positions = <2>; // Right mouse button
+            tap-trigger-key-positions = <1>;  // Left mouse button
         };
 
         mmv {
