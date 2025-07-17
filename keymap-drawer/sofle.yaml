@@ -80,7 +80,11 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+<<<<<<< HEAD
   - '&rgb_up RGB_OFF'
+=======
+  - RGB OFF
+>>>>>>> e05451a0116e94b5068b6ff00da586cdb825259b
   - RGB ON
   - RGB EFF
   - RGB EFR
