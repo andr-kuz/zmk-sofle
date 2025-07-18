@@ -8,13 +8,3 @@
 
 > If your keyboard was updated before October 24, please update to the latest firmware.
 > 
----
-# Contact Me
-
-For 3D printed model files or any issues and malfunctions with the keyboard, please contact 380465425@qq.com
-
-# Sofle Keymap
-
-
-<img src="keymap-drawer/sofle.svg" >
-
