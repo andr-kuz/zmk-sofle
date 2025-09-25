@@ -42,6 +42,14 @@
     };
 
     behaviors {
+        tptgl: tptgl {
+          compatible = "zmk,behavior-hold-tap";
+          #binding-cells = <2>;
+          flavor = "tap-preferred";
+          tapping-term-ms = <200>;
+          bindings = <&to>, <&kp>;
+        };
+
         click_hold: click_hold {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
